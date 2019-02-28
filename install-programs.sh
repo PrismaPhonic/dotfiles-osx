@@ -28,6 +28,8 @@ brew install postgres
 brew install postgis
 brew install neovim
 brew install git-flow
+brew install zsh-history-substring-search
+brew install zsh-syntax-highlighting
 brew install mono
 brew cask install dotnet
 brew cask install dotnet-sdk
