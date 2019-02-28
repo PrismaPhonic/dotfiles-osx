@@ -106,7 +106,7 @@ brew install fzf
 $(brew --prefix)/opt/fzf/install
 
 # Install alacritty terminal application
-cargo install alacritty
+brew cask install alacritty
 
 # Setup omnisharp-roslyn
 mkdir temp
