@@ -101,6 +101,13 @@ rustup install nightly
 # Install RLS
 rustup component add rls rls-analysis rust-src
 
+# Install fzf fuzzy finder
+brew install fzf
+$(brew --prefix)/opt/fzf/install
+
+# Install alacritty terminal application
+cargo install alacritty
+
 # Setup omnisharp-roslyn
 mkdir temp
 git clone https://github.com/OmniSharp/omnisharp-roslyn.git temp/
