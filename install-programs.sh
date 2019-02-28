@@ -116,3 +116,7 @@ mkdir temp
 git clone https://github.com/OmniSharp/omnisharp-roslyn.git temp/
 ./temp/build.sh
 rm -r temp
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+# Reduce transition time to 0 when switching workspaces
+defaults write com.apple.dock expose-animation-duration -int 0; killall Dock
