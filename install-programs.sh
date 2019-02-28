@@ -42,6 +42,7 @@ brew cask install steam
 brew cask install vlc
 brew cask install visual-studio-code
 brew cask install rider
+brew cask install amethyst
 
 # Setup Postgres
 pg_ctl -D /usr/local/var/postgres start
