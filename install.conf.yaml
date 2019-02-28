@@ -1,13 +1,23 @@
 - defaults:
     link:
+      create: true
       relink: true
 
 - clean: ['~']
+
+- shell:
+  - rm ~/.zshrc
+  - rm ~/.vimrc
+  - rm -r ~/.config/nvim
 
 - link:
     ~/.dotfiles: ''
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
+    ~/.config/:
+      glob: true
+      path: config/*
+      relink: true
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
