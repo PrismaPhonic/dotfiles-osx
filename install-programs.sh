@@ -44,6 +44,10 @@ brew cask install visual-studio-code
 brew cask install rider
 brew cask install amethyst
 
+# Install skhd hotkey daemon and start the service
+brew install koekeishiya/formulae/skhd
+brew services start skhd
+
 # Setup Postgres
 pg_ctl -D /usr/local/var/postgres start
 initdb /usr/local/var/postgres

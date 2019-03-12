@@ -1,0 +1,5 @@
+cmd - z : /Applications/Alacritty.app/Contents/MacOS/alacritty --single-instance -d ~
+
+cmd - b : /Applications/Firefox.app/Contents/MacOS/firefox --single-instance -d ~
+
+cmd + shift + r : /Applications/Rider.app/Contents/MacOS/rider --single-instance -d ~
