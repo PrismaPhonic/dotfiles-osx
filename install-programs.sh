@@ -43,6 +43,7 @@ brew cask install vlc
 brew cask install visual-studio-code
 brew cask install rider
 brew cask install amethyst
+brew cask install unity-hub
 
 # Install skhd hotkey daemon and start the service
 brew install koekeishiya/formulae/skhd
