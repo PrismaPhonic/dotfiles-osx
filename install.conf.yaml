@@ -18,6 +18,7 @@
     ~/.dotfiles: ''
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
+    ~/.config/alacritty/alacritty.yml: alacritty.yml
     ~/.config/:
       glob: true
       path: config/*
