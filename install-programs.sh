@@ -53,6 +53,10 @@ brew services start chunkwm
 # Install chunkwm background blur extra program
 brew install --HEAD chunkwm-blur
 
+# Install chunkwm-sa MUST HAVE SIP DISABLED FIRST
+sudo chunkwm --install-sa
+pkill Dock
+
 # Install skhd hotkey daemon and start the service
 brew install --HEAD --with-logging koekeishiya/formulae/skhd
 brew services start skhd
