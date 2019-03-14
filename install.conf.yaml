@@ -9,13 +9,15 @@
   - rm ~/.zshrc
   - rm ~/.vimrc
   - rm -r ~/.config/nvim
+  - rm ~/.chunkwmrc
+  - cp chunkwmrc ~/.chunkwmrc
+  - rm ~/.skhdrc
+  - cp skhdrc ~/.skhdrc
 
 - link:
     ~/.dotfiles: ''
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
-    ~/.skhdrc: skhdrc
-    ~/.chunkwmrc: chunkwmrc
     ~/.config/:
       glob: true
       path: config/*
