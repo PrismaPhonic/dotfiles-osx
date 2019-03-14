@@ -50,6 +50,9 @@ brew tap crisidev/homebrew-chunkwm
 brew install --HEAD --with-tmp-logging chunkwmc
 brew services start chunkwm
 
+# Install chunkwm background blur extra program
+brew install --HEAD chunkwm-blur
+
 # Install skhd hotkey daemon and start the service
 brew install --HEAD --with-logging koekeishiya/formulae/skhd
 brew services start skhd
