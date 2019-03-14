@@ -42,11 +42,16 @@ brew cask install steam
 brew cask install vlc
 brew cask install visual-studio-code
 brew cask install rider
-brew cask install amethyst
+# brew cask install amethyst
 brew cask install unity-hub
 
+# Install chunkwm
+brew tap crisidev/homebrew-chunkwm
+brew install --HEAD --with-tmp-logging chunkwmc
+brew services start chunkwm
+
 # Install skhd hotkey daemon and start the service
-brew install koekeishiya/formulae/skhd
+brew install --HEAD --with-logging koekeishiya/formulae/skhd
 brew services start skhd
 
 # Setup Postgres

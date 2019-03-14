@@ -15,6 +15,7 @@
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.skhdrc: skhdrc
+    ~/.chunkwmrc: chunkwmrc
     ~/.config/:
       glob: true
       path: config/*
