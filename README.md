@@ -2,6 +2,12 @@
 
 These are my dotfiles for getting my environment setup on OSX. 
 
+# Preparation
+
+Before you start make sure you setup 8 workspaces, turn on the key commands
+manually to switch between workspaces, and disable SIP protection (reboot into
+recovery)
+
 # Installing programs
 
 To install all programs just run the `install-programs.sh` script:
