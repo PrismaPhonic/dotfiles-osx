@@ -35,9 +35,6 @@ brew cask install slack
 brew cask install steam
 brew cask install vlc
 
-# Install shadowsweeper
-sudo cp -r ShadowSweeper.app /Applications/ShadowSweeper.app
-
 # Install tools
 brew install openssl
 brew install pkg-config
