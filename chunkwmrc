@@ -22,14 +22,12 @@ chunkc core::unload border.so
 #
 
 chunkc set global_desktop_mode           bsp
-chunkc set 2_desktop_mode                monocle
-chunkc set 5_desktop_mode                float
 
-chunkc set global_desktop_offset_top     4
-chunkc set global_desktop_offset_bottom  4
-chunkc set global_desktop_offset_left    4
-chunkc set global_desktop_offset_right   4
-chunkc set global_desktop_offset_gap     1
+chunkc set global_desktop_offset_top     5
+chunkc set global_desktop_offset_bottom  5
+chunkc set global_desktop_offset_left    5
+chunkc set global_desktop_offset_right   5
+chunkc set global_desktop_offset_gap     2
 
 chunkc set desktop_padding_step_size     10.0
 chunkc set desktop_gap_step_size         5.0
@@ -49,13 +47,13 @@ chunkc set window_region_locked          1
 
 chunkc set mouse_modifier                fn
 
-chunkc set preselect_border_color        0xffd75f5f
-chunkc set preselect_border_width        5
+chunkc set preselect_border_color        0xff222D32
+chunkc set preselect_border_width        7
 chunkc set preselect_border_radius       0
 
-chunkc set focused_border_color          0xff0f6288
-chunkc set focused_border_width          5
-chunkc set focused_border_radius         5
+chunkc set focused_border_color          0xfff7937c
+chunkc set focused_border_width          7
+chunkc set focused_border_radius         0
 chunkc set focused_border_skip_floating  0
 
 #
