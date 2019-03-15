@@ -17,11 +17,26 @@ brew doctor
 brew install cask
 brew doctor
 brew tap buo/cask-upgrade
+brew tap phinze/homebrew-cask
 
 brew install 
 
 # Install drivers
 brew tap caskroom/drivers
+
+# Install personal programs
+brew cask install caskroom/versions/firefoxdeveloperedition
+brew cask install google-chrome
+brew cask install alfred
+brew cask install bartender
+brew cask install cheatsheet
+brew cask install dropbox
+brew cask install slack
+brew cask install steam
+brew cask install vlc
+
+# Install shadowsweeper
+sudo cp -r ShadowSweeper.app /Applications/ShadowSweeper.app
 
 # Install tools
 brew install openssl
@@ -38,18 +53,10 @@ brew install git-flow
 brew install zsh-history-substring-search
 brew install zsh-syntax-highlighting
 brew install mono
-brew cask install dotnet
+brew cask install 
 brew cask install dotnet-sdk
-brew cask install alfred
-brew cask install bartender
-brew cask install cheatsheet
-brew cask install dropbox
-brew cask install slack
-brew cask install steam
-brew cask install vlc
 brew cask install visual-studio-code
 brew cask install rider
-# brew cask install amethyst
 brew cask install unity-hub
 
 # Install chunkwm
