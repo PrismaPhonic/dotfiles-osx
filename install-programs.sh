@@ -57,8 +57,8 @@ brew cask install rider
 brew cask install unity-hub
 
 # Install chunkwm
-brew tap crisidev/homebrew-chunkwm
-brew install --HEAD --with-tmp-logging chunkwmc
+brew tap koekeishiya/formulae
+brew install --HEAD --with-tmp-logging --with-purify chunkwmc
 brew services start chunkwm
 
 # Install chunkwm background blur extra program
