@@ -32,6 +32,7 @@ Plug 'vim-scripts/localvimrc'
 Plug 'mxw/vim-jsx'
 Plug 'rust-lang/rust.vim'
 Plug 'suan/vim-instant-markdown'
+Plug 'leafgarland/typescript-vim'
 
 " C# stuff
 Plug 'OmniSharp/omnisharp-vim'
@@ -143,6 +144,8 @@ let g:SimpylFold_docstring_preview=1
 filetype plugin indent on
 autocmd FileType html setlocal ts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
+autocmd Filetype typescript setlocal ts=2 sw=2 expandtab
+autocmd Filetype ts setlocal ts=2 sw=2 expandtab
 autocmd Filetype json setlocal ts=2 sw=2 expandtab
 autocmd Filetype css setlocal ts=2 sw=2 expandtab
 autocmd Filetype jsx setlocal ts=2 sw=2 expandtab

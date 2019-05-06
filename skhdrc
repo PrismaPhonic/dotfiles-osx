@@ -1,6 +1,6 @@
 ctrl - z : /Applications/Alacritty.app/Contents/MacOS/alacritty
 
-ctrl - b : open -n /Applications/Firefox.app
+ctrl - b : open -n /Applications/Firefox\ Developer\ Edition.app
 
 ctrl + shift - r : /Applications/Rider.app/Contents/MacOS/rider
 

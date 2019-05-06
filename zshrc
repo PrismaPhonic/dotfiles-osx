@@ -181,3 +181,5 @@ export _JAVA_AWT_WM_NONREPARENTING=1
 
 # link fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+export PS_FEED=https://playstudios.myget.org/F/play-studios/auth/685fcd0b-cb59-46b8-845a-029f3069f9d1/api/v3/index.json

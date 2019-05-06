@@ -34,6 +34,7 @@ brew cask install dropbox
 brew cask install slack
 brew cask install steam
 brew cask install vlc
+brew cask install osxfuse
 
 # Install tools
 brew install openssl
@@ -50,11 +51,15 @@ brew install git-flow
 brew install zsh-history-substring-search
 brew install zsh-syntax-highlighting
 brew install mono
+brew install ntfs-3g
 brew cask install 
 brew cask install dotnet-sdk
 brew cask install visual-studio-code
 brew cask install rider
 brew cask install unity-hub
+
+# Install Personal Programs
+brew cask install anki
 
 # Install chunkwm
 brew tap koekeishiya/formulae
